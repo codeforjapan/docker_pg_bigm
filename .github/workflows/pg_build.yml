@@ -10,7 +10,7 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: postgres_bigm
+      IMAGE_NAME: postgresql_bigm
       IMAGE_TAG: 12-latest
     permissions:
       contents: read
