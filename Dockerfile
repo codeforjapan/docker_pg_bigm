@@ -12,5 +12,5 @@ RUN cd /tmp && \
     rm -rf /tmp/pg_bigm-1.2-20240606 /tmp/v1.2-20240606.tar.gz
 
 RUN mkdir -p /docker-entrypoint-initdb.d
-COPY ./initdb-pg_bigm.sh /docker-entrypoint-initdb.d/10_pg_bigm.sh
+COPY ./initdb-pg_bigm.sql /docker-entrypoint-initdb.d/10_pg_bigm.sql
 # RUN echo shared_preload_libraries='pg_bigm' >> /var/lib/postgresql/data/postgresql.conf
