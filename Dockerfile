@@ -1,4 +1,4 @@
-FROM postgres:12
+FROM postgres:14
 
 RUN apt update
 RUN apt install -y postgresql-server-dev-12 make gcc curl libicu-dev
