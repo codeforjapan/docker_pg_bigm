@@ -1,7 +1,7 @@
 FROM postgres:14
 
 RUN apt update
-RUN apt install -y postgresql-server-dev-12 make gcc curl libicu-dev
+RUN apt install -y postgresql-server-dev-14 make gcc curl libicu-dev
 
 RUN cd /tmp && \
     curl -L -O https://github.com/pgbigm/pg_bigm/archive/refs/tags/v1.2-20240606.tar.gz && \
