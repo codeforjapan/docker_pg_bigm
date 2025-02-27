@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: postgresql_bigm
-      IMAGE_TAG: 12-latest
+      IMAGE_TAG: 14-latest
     permissions:
       packages: write
 
